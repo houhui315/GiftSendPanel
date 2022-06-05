@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4428C207282B905600FD3072 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4428C206282B905600FD3072 /* HomeViewController.m */; };
+		44C20B39282A954500DFF88A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B38282A954500DFF88A /* AppDelegate.m */; };
+		44C20B3C282A954500DFF88A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B3B282A954500DFF88A /* SceneDelegate.m */; };
+		44C20B3F282A954500DFF88A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B3E282A954500DFF88A /* ViewController.m */; };
+		44C20B42282A954500DFF88A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C20B40282A954500DFF88A /* Main.storyboard */; };
+		44C20B44282A954700DFF88A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C20B43282A954700DFF88A /* Assets.xcassets */; };
+		44C20B47282A954700DFF88A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C20B45282A954700DFF88A /* LaunchScreen.storyboard */; };
+		44C20B4A282A954700DFF88A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B49282A954700DFF88A /* main.m */; };
+		44C20B53282A958F00DFF88A /* GiftSendPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B52282A958F00DFF88A /* GiftSendPanelView.m */; };
+		44C20B56282A95D500DFF88A /* GiftSendItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B55282A95D500DFF88A /* GiftSendItemView.m */; };
+		44C20B59282A960600DFF88A /* GiftSendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C20B58282A960600DFF88A /* GiftSendModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4428C205282B905600FD3072 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4428C206282B905600FD3072 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		44C20B34282A954500DFF88A /* GiftSendPanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftSendPanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C20B37282A954500DFF88A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44C20B38282A954500DFF88A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44C20B3A282A954500DFF88A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		44C20B3B282A954500DFF88A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		44C20B3D282A954500DFF88A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44C20B3E282A954500DFF88A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44C20B41282A954500DFF88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44C20B43282A954700DFF88A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C20B46282A954700DFF88A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44C20B48282A954700DFF88A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C20B49282A954700DFF88A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44C20B51282A958F00DFF88A /* GiftSendPanelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftSendPanelView.h; sourceTree = "<group>"; };
+		44C20B52282A958F00DFF88A /* GiftSendPanelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftSendPanelView.m; sourceTree = "<group>"; };
+		44C20B54282A95D500DFF88A /* GiftSendItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftSendItemView.h; sourceTree = "<group>"; };
+		44C20B55282A95D500DFF88A /* GiftSendItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftSendItemView.m; sourceTree = "<group>"; };
+		44C20B57282A960600DFF88A /* GiftSendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiftSendModel.h; sourceTree = "<group>"; };
+		44C20B58282A960600DFF88A /* GiftSendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GiftSendModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C20B31282A954500DFF88A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C20B2B282A954500DFF88A = {
+			isa = PBXGroup;
+			children = (
+				44C20B36282A954500DFF88A /* GiftSendPanel */,
+				44C20B35282A954500DFF88A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44C20B35282A954500DFF88A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C20B34282A954500DFF88A /* GiftSendPanel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C20B36282A954500DFF88A /* GiftSendPanel */ = {
+			isa = PBXGroup;
+			children = (
+				44C20B50282A957700DFF88A /* GiftSendPanel */,
+				44C20B37282A954500DFF88A /* AppDelegate.h */,
+				44C20B38282A954500DFF88A /* AppDelegate.m */,
+				44C20B3A282A954500DFF88A /* SceneDelegate.h */,
+				44C20B3B282A954500DFF88A /* SceneDelegate.m */,
+				44C20B3D282A954500DFF88A /* ViewController.h */,
+				44C20B3E282A954500DFF88A /* ViewController.m */,
+				4428C205282B905600FD3072 /* HomeViewController.h */,
+				4428C206282B905600FD3072 /* HomeViewController.m */,
+				44C20B40282A954500DFF88A /* Main.storyboard */,
+				44C20B43282A954700DFF88A /* Assets.xcassets */,
+				44C20B45282A954700DFF88A /* LaunchScreen.storyboard */,
+				44C20B48282A954700DFF88A /* Info.plist */,
+				44C20B49282A954700DFF88A /* main.m */,
+			);
+			path = GiftSendPanel;
+			sourceTree = "<group>";
+		};
+		44C20B50282A957700DFF88A /* GiftSendPanel */ = {
+			isa = PBXGroup;
+			children = (
+				44C20B51282A958F00DFF88A /* GiftSendPanelView.h */,
+				44C20B52282A958F00DFF88A /* GiftSendPanelView.m */,
+				44C20B54282A95D500DFF88A /* GiftSendItemView.h */,
+				44C20B55282A95D500DFF88A /* GiftSendItemView.m */,
+				44C20B57282A960600DFF88A /* GiftSendModel.h */,
+				44C20B58282A960600DFF88A /* GiftSendModel.m */,
+			);
+			path = GiftSendPanel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C20B33282A954500DFF88A /* GiftSendPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C20B4D282A954700DFF88A /* Build configuration list for PBXNativeTarget "GiftSendPanel" */;
+			buildPhases = (
+				44C20B30282A954500DFF88A /* Sources */,
+				44C20B31282A954500DFF88A /* Frameworks */,
+				44C20B32282A954500DFF88A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiftSendPanel;
+			productName = GiftSendPanel;
+			productReference = 44C20B34282A954500DFF88A /* GiftSendPanel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C20B2C282A954500DFF88A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					44C20B33282A954500DFF88A = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 44C20B2F282A954500DFF88A /* Build configuration list for PBXProject "GiftSendPanel" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C20B2B282A954500DFF88A;
+			productRefGroup = 44C20B35282A954500DFF88A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C20B33282A954500DFF88A /* GiftSendPanel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C20B32282A954500DFF88A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C20B47282A954700DFF88A /* LaunchScreen.storyboard in Resources */,
+				44C20B44282A954700DFF88A /* Assets.xcassets in Resources */,
+				44C20B42282A954500DFF88A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C20B30282A954500DFF88A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C20B59282A960600DFF88A /* GiftSendModel.m in Sources */,
+				44C20B3F282A954500DFF88A /* ViewController.m in Sources */,
+				44C20B39282A954500DFF88A /* AppDelegate.m in Sources */,
+				44C20B56282A95D500DFF88A /* GiftSendItemView.m in Sources */,
+				44C20B4A282A954700DFF88A /* main.m in Sources */,
+				44C20B53282A958F00DFF88A /* GiftSendPanelView.m in Sources */,
+				44C20B3C282A954500DFF88A /* SceneDelegate.m in Sources */,
+				4428C207282B905600FD3072 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44C20B40282A954500DFF88A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C20B41282A954500DFF88A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44C20B45282A954700DFF88A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44C20B46282A954700DFF88A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44C20B4B282A954700DFF88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44C20B4C282A954700DFF88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C20B4E282A954700DFF88A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiftSendPanel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ooo.GiftSendPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C20B4F282A954700DFF88A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GiftSendPanel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ooo.GiftSendPanel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C20B2F282A954500DFF88A /* Build configuration list for PBXProject "GiftSendPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C20B4B282A954700DFF88A /* Debug */,
+				44C20B4C282A954700DFF88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C20B4D282A954700DFF88A /* Build configuration list for PBXNativeTarget "GiftSendPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C20B4E282A954700DFF88A /* Debug */,
+				44C20B4F282A954700DFF88A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C20B2C282A954500DFF88A /* Project object */;
+}
